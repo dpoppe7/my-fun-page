@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4470700d-e25d-40d2-8fb7-b020155f4986" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1ndVl27GBxYSa885E6t1YUHcG7w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4470700d-e25d-40d2-8fb7-b020155f4986" name="Default Changelist" comment="" />
+      <created>1611720103878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611720103878</updated>
+      <workItem from="1611720105011" duration="59000" />
+      <workItem from="1617495304459" duration="3584000" />
+      <workItem from="1617586001311" duration="3588000" />
+      <workItem from="1617649661715" duration="5712000" />
+      <workItem from="1617736004792" duration="2043000" />
+      <workItem from="1617833999193" duration="127000" />
+      <workItem from="1618100518030" duration="405000" />
+      <workItem from="1618184166255" duration="285000" />
+      <workItem from="1618234440389" duration="1030000" />
+      <workItem from="1618472596413" duration="125000" />
+      <workItem from="1618617625218" duration="464000" />
+      <workItem from="1618632914650" duration="151000" />
+      <workItem from="1618867160566" duration="129000" />
+      <workItem from="1619067688260" duration="249000" />
+      <workItem from="1619112362663" duration="417000" />
+      <workItem from="1619135514172" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
