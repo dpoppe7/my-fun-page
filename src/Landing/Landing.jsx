@@ -30,6 +30,7 @@ import Trig_dkgreen from '../assets/trig_dkgreen.png';
   BL - Bottom Left
   TR - Top Right
   BR - Bottom Right
+  C - Center
 */
 const shapes = [
   { id: 1, type: 'TLSquare_yellowcolors', image: Square_yellowcolors, top: '20%', left: '15%', width: '4rem' },
@@ -46,6 +47,7 @@ const shapes = [
   { id: 2, type: 'TLRect_small_blue', image: Rect_small_blue, top: '12%', left: '23%', width: '4.4rem', height: '2rem'},
   { id: 2, type: 'TLRound_blue', image: Round_blue, top: '32%', left: '-1%', width: '3.2rem' },
   { id: 2, type: 'TLRound_yellow', image: Round_yellow, top: '15%', left: '8%', width: '3rem' },
+  { id: 2, type: 'TLRound_yellow2', image: Round_yellow, top: '19%', left: '31%', width: '3rem' },
   { id: 2, type: 'TLRound_pink1', image: Round_pink, top: '-1%', left: '18%', width: '4.5rem' },
   { id: 2, type: 'TLTrig_blue', image: Trig_blue, top: '32%', left: '4.5%', width: '2.5rem', rotate: '-90deg' },
   { id: 2, type: 'TLTrig_orange', image: Trig_orange, top: '15%', left: '3%', width: '2.5rem' },
@@ -54,8 +56,6 @@ const shapes = [
   { id: 2, type: 'TLRound_group_brown', image: Round_group_brown, top: '21%', left: '-3%', width: '5.5rem', rotate: '90deg' },
   { id: 2, type: 'TLRound_group_purple', image: Round_group_purple, top: '-4%', left: '13%', width: '1.5rem', rotate: '90deg' },
   { id: 2, type: 'TLRound_group_green', image: Round_group_green, top: '13%', left: '25%', width: '1.5rem', rotate: '90deg' },
-
-
 
   { id: 1, type: 'BLSquare_yellowcolors_rotated', image: Square_yellowcolors, top: '85%', left: '18%', width: '3rem', rotate: '45deg' },
   { id: 2, type: 'BLSquare_orange', image: Square_orange, top: '54%', left: '15%', width: '3.6rem' },
@@ -76,6 +76,26 @@ const shapes = [
   { id: 2, type: 'BLTrig_blue', image: Trig_blue, top: '76%', left: '18%', width: '2.5rem' },
   { id: 2, type: 'BLTrig_lightblue', image: Trig_lightblue, top: '56%', left: '9%', width: '2.5rem' },
   { id: 2, type: 'BLTrig_red', image: Trig_red, top: '54%', left: '21%', width: '2.5rem' },
+
+  { id: 1, type: 'CSquare_yellowcolors', image: Square_yellowcolors, top: '12%', left: '69%', width: '3.7rem'},
+  { id: 1, type: 'CSquare_bluecolors', image: Square_bluecolors, top: '10%', left: '37%', width: '4rem' },
+  { id: 2, type: 'CSquare_pink', image: Square_pink, top: '13.5%', left: '44.5%', width: '2.5rem', rotate: '-45deg' },
+  { id: 2, type: 'CSquare_green', image: Square_green, top: '-2%', left: '64.5%', width: '4.8rem', rotate: '45deg' },
+  { id: 2, type: 'CRound_yellow', image: Round_yellow, top: '16%', left: '49%', width: '4rem' },
+  { id: 2, type: 'CRound_blue', image: Round_blue, top: '1%', left: '41%', width: '3rem' },
+  { id: 2, type: 'CRound_blue2', image: Round_blue, top: '23.5%', left: '65%', width: '3rem' },
+
+  { id: 2, type: 'CRound_pink', image: Round_pink, top: '-0.5%', left: '58%', width: '4.7rem' },
+  { id: 2, type: 'CTrig_green', image: Trig_green, top: '1%', left: '35.8%', width: '3rem', rotate: '-90deg' },
+  { id: 2, type: 'CTrig_orange', image: Trig_orange, top: '20.5%', left: '42.5%', width: '2.5rem' },
+  { id: 2, type: 'CTrig_yellow', image: Trig_yellow, top: '14%', left: '61%', width: '2rem' },
+
+  { id: 2, type: 'CRect_green', image: Rect_green, top: '-3%', left: '46%', width: '6rem', rotate: '-45deg' },
+  { id: 2, type: 'CRect_small_yellow1', image: Rect_small_yellow, top: '13%', left: '65%', width: '1.5rem' },
+  { id: 2, type: 'CRect_small_blue', image: Rect_small_blue, top: '12%', left: '54%', width: '4rem', height: '1.4rem' },
+  { id: 2, type: 'CRound_group_brown', image: Round_group_brown, top: '1%', left: '53%', width: '5.5rem', rotate: '90deg' },
+  { id: 2, type: 'CRound_group_green', image: Round_group_green, top: '16%', left: '59%', width: '1.5rem', rotate: '90deg' },
+  { id: 2, type: 'CRound_group_purple', image: Round_group_purple, top: '19.8%', left: '73.5%', width: '1.5rem', rotate: '90deg' },
 
 
 ];
