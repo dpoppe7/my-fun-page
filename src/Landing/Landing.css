@@ -14,17 +14,42 @@
 
 .Landing-header{
     margin-top: 25%;
+    z-index: 2; /* Header is on top */
+}
+
+/* Hover blur effect */
+.blur-circle {
+    position: absolute;
+    width: 200px; /* Increase the size to create a softer blur */
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 40%);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.background-image{
+    position: fixed;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%; /* Adjust width as needed */
+    height: 100%;
+    background-size: cover;
+    z-index: 3;
 }
 
 .Shapes-container {
     position: absolute;
     width: 100%; 
     height: 100%;
+    z-index: 1; /* Shapes are in front of background */
 }
 
 .Shape-img {
     position: absolute;
-    transition: transform 0.3s ease-in-out, z-index 0.3s;; 
+    
+    transition: transform 0.3s ease, filter 0.2s ease;
 }
 
 .Shape-img:hover {
